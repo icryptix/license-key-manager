@@ -69,9 +69,3 @@ For just plugins or themes, you probably will want to link a new function to the
 If they don’t pay, you simply login to your License Key Server, locate their key, edit it, change its 'visibility' (on the right) from 'public' to 'private'. That will immediately disable the wp-admin to their WordPress site or whatever script you applied License Key Manager to. 
 
 In the event you actually have to use License Key Manager and disable a clients WordPress site, one that when you implemented the php snippet you placed it within one of the core files mentioned above- their frontend still stays up upon deactivation of their key, but the backend locks down. I thought that kept the possible "losses liability" claims fairly slim since we aren't preventing web visitors from seeing the site, but only preventing any user from login to the wp-admin. 
-
-Mark my words, you will have your money by the end of the day, if not almost instantly. Once they pay, locate their key again on the License Key Server, edit it, change it's 'visibility' from 'private' back to 'public' and that will enable their wp-admin access in real-time.
-
-If you are having any problems with the WordPress Edition of License Key Manager, then maybe you should consider using the Php Standalone version. I've used that for years with zero problems, simply flawless, but that version could use a bath. The WordPress Edition is still brand new, so please send me your feedback so I can make sure any issues are resolved.
-
-If you'd like to contribute to License Key Manager, please let me know: https://twitter.com/degersey. Oh btw, you need to keep an eye out for all the latest updates via this link: https://github.com/icryptic/license-key-manager
